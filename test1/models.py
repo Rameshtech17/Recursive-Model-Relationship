@@ -6,6 +6,7 @@ class School(models.Model):
     Teacher = 'Teacher'
     Student = 'Student'
 
+
     EMPLOYEE_TYPES = (
         (Principal, 'Principal'),
         (Teacher, 'Teacher'),
